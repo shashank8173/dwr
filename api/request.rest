@@ -1,0 +1,16 @@
+GET http://localhost:3001/todos
+
+################################
+ POST http://localhost:3001/todo/new
+ Content-Type: application/json
+
+ {
+  "text" : "Get a fresh fish."
+ }
+##########################
+
+ DELETE http://localhost:3001/todo/delete/647c018e546d8c1d1f0fbbf1
+
+################################################################
+
+get http://localhost:3001/todo/complete/647bff811d25a0c9326aefc1
