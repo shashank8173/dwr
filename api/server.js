@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors') 
 const Todo = require('./models/Todo')
-const DB = 'mongodb+srv://shashank8173:shashank8173@cluster0.hbapga4.mongodb.net/ecommerce?retryWrites=true&w=majority'
+const DB = 'mongodb+srv://shashank8173:shashank8173@cluster0.hbapga4.mongodb.net/'
 const app= express()
 app.use(express.json());
 app.use(cors());
